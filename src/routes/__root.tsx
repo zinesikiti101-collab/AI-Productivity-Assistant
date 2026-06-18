@@ -90,6 +90,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "AI Workplace Command Center" },
+      { name: "description", content: "AI Command Center is an AI-powered executive assistant that transforms workplace information into actionable outcomes." },
+      { property: "og:description", content: "AI Command Center is an AI-powered executive assistant that transforms workplace information into actionable outcomes." },
+      { name: "twitter:description", content: "AI Command Center is an AI-powered executive assistant that transforms workplace information into actionable outcomes." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/296c1a20-95a9-4e48-9af8-cad8eb37fcb2/id-preview-a75bab6c--835829b4-dfba-413e-a2a0-4f13206c105c.lovable.app-1781781158945.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/296c1a20-95a9-4e48-9af8-cad8eb37fcb2/id-preview-a75bab6c--835829b4-dfba-413e-a2a0-4f13206c105c.lovable.app-1781781158945.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
